@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  font-family: 'Lora', serif;
+  box-sizing: border-box;
+}
+
+.fadee {
+  animation: fadeInAnimation ease 1.5s;
+}
+
+@keyframes fadeInAnimation {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.menuu {
+  background-color: #b29259;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+}
+
+.menuu a {
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #150000;
+  font-size: 20px;
+}
+
+.menuu a:hover {
+  background-color: #cab9a7;
+}
+
+.menuu a.active {
+  font-weight: bold;
+  color: #a6342a;
+}
+
+.titlee {
+  text-align: center;
+  color: #150000;
+  font-size: 75px;
+}
+
+.yingtiann {
+  border: 5px solid #7d6d4b;
+  width: 100%;
+  background-image: url('IMG/image1.png');
+}
+
+.suzhouu {
+  border: 5px solid #7d6d4b;
+  width: 100%;
+  background-image: url('IMG/image2.png');
+}
+
+/* .imagee {
+  border: 5px solid #7d6d4b;
+  width: 100%;
+  opacity: 50%;
+} */
+
+.bothh {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.cityy {
+  font-size: 75px;
+  /* opacity: 75%; */
+}
