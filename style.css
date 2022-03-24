@@ -20,6 +20,7 @@
   flex-direction: row;
   justify-content: space-around;
   position: fixed;
+  z-index: 1;
 }
 
 .menuu a {
@@ -48,20 +49,23 @@
 .yingtiann {
   border: 5px solid #7d6d4b;
   width: 100%;
-  background-image: url('IMG/image1.png');
+  position: relative;
+  overflow: hidden;
 }
 
 .suzhouu {
   border: 5px solid #7d6d4b;
   width: 100%;
-  background-image: url('IMG/image2.png');
+  position: relative;
+  overflow: hidden;
 }
 
-/* .imagee {
-  border: 5px solid #7d6d4b;
+.backgroundd {
+  position: absolute;
   width: 100%;
   opacity: 50%;
-} */
+  z-index: -1;
+}
 
 .bothh {
   display: flex;
@@ -71,5 +75,5 @@
 
 .cityy {
   font-size: 75px;
-  /* opacity: 75%; */
+  opacity: 75%;
 }
